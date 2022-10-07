@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <h1>Regístrate</h1>
+    <label for="" id="nombre">Ingrese su Nombre:</label>
+    <input type="text" name="nombre"> <br>
+
+    <label for="" id="apellido">Ingrese su apellido:</label>
+    <input type="text" name="apellido"> <br>
+
+    <label for="" id="email">Ingrese su email:</label> 
+    <input type="text" name="email"> <br>
+
+    <label for="" id="contraseña">Ingrese su contraseña:</label>
+    <input type="password" name="contraseña"> <br>
+
+
+    <bu onclick="capturarDatos()">Enviar</bu
+        }tton> 
+
+    <script>
+        function capturarDatos(){
+            var nombre = document.getElementsByName("nombre")[0].value;
+            var apellido = document.getElementsByName("apellido")[0].value;
+            var email = document.getElementsByName("email")[0].value;
+            var contraseña = document.getElementsByName("contraseña")[0].value;
+            if(!isNaN(nombre)){
+                
+            }else{
+
+            }
+            
+            //label_nombre.innerHTML = "El nombre ingresado es: "+nombre;
+            console.log("El valor capturado de el nombre es:"+nombre);
+            console.log("El valor capturado de el apellido es:"+apellido);
+            console.log("El valor capturado de el nombre es:"+email);
+            console.log("El valor capturado de el apellido es:"+contraseña);
+
+            alert("Los valores ingresados fueron: "+nombre)
+
+
+    </script>
+</body>
+</html>
+
